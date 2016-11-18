@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Echo
+
+  Created by Luis Mariano Arobes on 22/09/16.
+  Copyright © 2016 Luis Mariano Arobes. All rights reserved.
+*/
+
+"Login" = "Login";
+"Sign Up" = "Registrarme";
+"Back To Login" = "Regresar a Login";
+"Back to Sign Up" = "Regresar a Registro";
+"New Zone" = "Nueva Zona";
+"Next" = "Siguiente";
+"Friends" = "Amigos";

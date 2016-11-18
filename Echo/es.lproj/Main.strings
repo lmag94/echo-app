@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; placeholder = "email"; ObjectID = "02F-Jn-qTu"; */
+"02F-Jn-qTu.placeholder" = "email";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "0R6-ko-7MV"; */
+"0R6-ko-7MV.placeholder" = "password";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "DCY-Gr-0ZD"; */
+"DCY-Gr-0ZD.placeholder" = "Confirm Password";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Mzc-zh-iSc"; */
+"Mzc-zh-iSc.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "SbM-W1-DPM"; */
+"SbM-W1-DPM.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "VKE-kv-BQb"; */
+"VKE-kv-BQb.placeholder" = "Username";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "WHu-Ab-BLy"; */
+"WHu-Ab-BLy.title" = "Login";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "XWh-sl-wAp"; */
+"XWh-sl-wAp.placeholder" = "Confirm password";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "lET-nF-uXe"; */
+"lET-nF-uXe.normalTitle" = "Register";
+
+/* Class = "UINavigationItem"; title = "Sign Up"; ObjectID = "lW1-OX-xaA"; */
+"lW1-OX-xaA.title" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Facebook"; ObjectID = "tka-bw-hFv"; */
+"tka-bw-hFv.normalTitle" = "Facebook";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "vcN-x5-Wcc"; */
+"vcN-x5-Wcc.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Don't have an account? Sign Up"; ObjectID = "xdC-0k-mO0"; */
+"xdC-0k-mO0.normalTitle" = "Don't have an account? Sign Up";
