@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EchoOverlayView" customModule="Echo" customModuleProvider="target">
+            <connections>
+                <outlet property="belugaImageView" destination="G82-7X-nku" id="v8C-b7-Exj"/>
+                <outlet property="blurEffectView" destination="l55-z3-hrN" id="T38-KL-V84"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="WW7-E5-7QQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l55-z3-hrN">
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kbo-hp-G9L">
+                        <frame key="frameInset"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.71147629310000005" green="0.71147629310000005" blue="0.71147629310000005" alpha="0.2674798696319019" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beluga" translatesAutoresizingMaskIntoConstraints="NO" id="G82-7X-nku">
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="G82-7X-nku" secondAttribute="height" multiplier="5:3" id="9hQ-Tb-ecr"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="G82-7X-nku" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8Fw-YP-q6y"/>
+                <constraint firstAttribute="bottom" secondItem="l55-z3-hrN" secondAttribute="bottom" id="Gou-L1-33Y"/>
+                <constraint firstAttribute="trailing" secondItem="l55-z3-hrN" secondAttribute="trailing" id="aE4-wJ-fqC"/>
+                <constraint firstItem="l55-z3-hrN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="iKv-bF-J0g"/>
+                <constraint firstItem="G82-7X-nku" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="pyw-RD-pXJ"/>
+                <constraint firstItem="G82-7X-nku" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.5" id="rKg-Tm-ViB"/>
+                <constraint firstItem="l55-z3-hrN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="raM-OH-Wya"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="beluga" width="600" height="297"/>
+    </resources>
+</document>
